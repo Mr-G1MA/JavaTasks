@@ -1,0 +1,48 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+.arrow{
+  color: aqua;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.arrow:hover{
+  color:red;
+}
+
+.slyder{
+  display: flex;
+  width: 300px;
+  overflow: hidden;
+  margin: 0 10px;
+}
+
+.list{
+  display: flex;
+  position: relative;
+  color: grey;
+  font-size: 30px;
+  right: 0;
+  transition: right 0.3s;
+}
+
+.item{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lemonchiffon;
+  box-sizing: border-box;
+  border: 1px solid grey;
+}
